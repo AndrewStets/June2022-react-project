@@ -1,0 +1,20 @@
+.simp-all {
+    display: flex;
+    justify-content: space-evenly;
+
+    min-width:200px;
+    min-height: 400px;
+
+
+}
+.simpy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 2px solid black;
+}
+.images {
+    width: 200px;
+    height: 350px;
+}

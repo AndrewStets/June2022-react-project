@@ -11,7 +11,7 @@ export default function Persons() {
     //     });
 
     return (<div className='pers-all'>
-            <div className='personal'>{persons.map(person => <Person item={person} key={person.id}/>)}</div>
+           {persons.map(person => <Person item={person} key={person.id}/>)}
         </div>
     );
 };
